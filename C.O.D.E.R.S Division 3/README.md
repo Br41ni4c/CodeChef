@@ -1,5 +1,5 @@
 # C.O.D.E.R.S 
-## Organized by NSUT
+### Organized by NSUT
 
 Division 3 - Participants with rating less than 1600
 
