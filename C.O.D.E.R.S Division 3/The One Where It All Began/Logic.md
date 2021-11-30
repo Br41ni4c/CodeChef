@@ -1,0 +1,22 @@
+According to the question, there are 6 friends and *N* cookies and the *N* cookies are supposed to be distributed to the 6 friends in such a manner that:
+- Each friend gets at least 1 cookie
+- No 2 friends get the same number of cookies
+
+So the minimum value which satisfies the given conditions is 21 (the sum of the first 6 distinct natural numbers) where:
+- 1<sup>st</sup> friend gets 1 cookie 
+- 2<sup>nd</sup> friend gets 2 cookies
+- 3<sup>rd</sup> friend gets 3 cookies
+- 4<sup>th</sup> friend gets 4 cookies
+- 5<sup>th</sup> friend gets 5 cookies
+- 6<sup>th</sup> friend gets 6 cookies 
+
+Therefore, 1+2+3+4+5+6 = 21
+
+Now for any value greater than 21, we can give the additional number of cookies to the 6th friend and the conditions will still be satisfied  
+For eg.
+- If N = 73, first 5 friends get 1,2,3,4,5 respectively and the last friend gets the remainder i.e., 68 cookies. 
+- if N = 1000, again the first 5 friends get 1,2,3,4,5 respectively and the 6<sup>th</sup> friend gets 985 cookies.
+
+Now although this manner of dividing cookies seems unfair, the conditions are satisfied in the given cases.
+
+### Conclusion: Therefore, any value of *N* greater than 20 is acceptable
